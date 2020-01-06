@@ -1,0 +1,1356 @@
+@mixin inputs{
+    background-color: #282d34;
+                padding: 10px 15px;
+                color: white;
+                border: unset;
+                border-radius: 5px;
+                font-size: 16px;
+                height: 45px;
+                margin-bottom: 10px;
+}
+body{
+    background-color: #1f2124;
+    color: white;
+}
+button:focus{
+    outline: none;
+}
+.owlCard{
+    &__imgBox{
+        height: 350px;
+        box-shadow: inset 0 -40px 70px 30px rgba(0,0,0,.9);
+        img{
+            height: 100%;
+            position: relative;
+            z-index: -2;
+        }
+    }
+
+    &__content{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        line-height: 0.5rem;
+    }
+
+    &__title{
+        font-size: 18px;}
+
+    &__date{
+        font-size: 12px;
+        color: #878889;
+    }
+
+ 
+    &__price{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    
+    
+}
+.myOwl{
+    background-color: #282828;
+    padding: 1rem 1rem;
+
+    &__dots{
+        display: flex;
+        justify-content: center;
+       
+    }
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__dot{
+        background-color: transparent;
+        border: 1px solid #a92946;
+        border-radius: 3px;
+        height: 20px;
+        width: 10px;
+        padding: 0;
+        transition: all .5s;
+        margin-right: .2rem;
+&:focus{
+    outline: none;
+}
+        &--active{
+            background-color: #a92946;
+            width: 17px;
+        }
+    }
+}
+
+.owl-prev {
+  background-color: transparent;
+  border: 1px solid #a92946;
+  color: #a92946;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: .5rem;
+  padding: .1rem 1rem;
+  line-height: normal;
+}
+.owl-next {
+    background-color: transparent;
+    border: 1px solid #a92946;
+    color: #a92946;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: .1rem 1rem;
+    line-height: normal;
+  }
+
+  div.owl-nav{
+    display:none;
+}
+div.owl-dots{
+    display:none;
+}
+.buttonPS{
+    border: 1px solid #00aeef;
+    color: #00aeef;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: .3rem 0.7rem;
+    width: 6rem;
+    border-radius: 7px;
+}
+
+.gamesPage{
+    margin-top: 40px;
+    .col-md-4{
+        margin-top: 30px;
+    }
+    
+    &__card{
+        background-color: transparent;
+       
+    }
+
+    &__rest{
+        background-color: #212427;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    &__imgBox{
+        height: 11.2rem;
+        box-shadow: inset 0 -40px 70px 30px rgba(0,0,0,.9);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+        img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            position: relative;
+            z-index: -2;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+    }
+    &__cardTitle{
+        font-size: 24px;
+        margin-top: -2.5rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0px 0.5rem;
+        
+        
+    }
+
+    &__cardContent{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        padding: 3px 0.5rem;
+        p{
+            margin-top: -1rem;
+        }
+    }
+
+    &__date{
+        text-align: center;
+        width: 100%;
+        font-size: 13px;
+        margin-top: 25px;
+        padding-bottom: 20px;
+    }
+
+}
+
+.gamesMedia{
+    background-color: #26282c;
+    padding: 0.7rem 1rem 0.1rem 1rem;
+    border-radius: 10px;
+    margin-top: 10px;
+    &__number{
+        margin-right: 20px;
+        font-size: 24px;
+    }
+    &__img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    &__name{
+        font-size: 14px;
+    }
+    &__point{
+        font-size: 12px;
+        color: #5b5c5d;
+    }
+}
+.gamesMediaBox{
+    margin-top: 30px;
+}
+.userprofile-navigation{
+    background-color: #212427;
+    border: 1px solid white;
+    border-top: none;
+    color: white;
+    padding: 8px 0px;
+
+    &__link{
+        color: white;
+        font-size: 17px;
+        &:hover{
+            color: #ff295a;
+            
+        }
+    }
+}
+.userprofile-left{
+    
+    &__profilepic{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;    
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 7px solid #484a4d;
+}
+    &__name{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700px;
+        line-height: 0.1rem;
+    }
+    &__namelink{
+        text-align: right;
+    }
+    &__link{
+        color: #5b5c5d;
+        line-height: 0.5rem;
+       &:hover{
+        color: #5b5c5d;
+       }
+    }
+    &__level{
+        color: white;
+        font-size: 15px;
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    &__location, &__regdate, &__workplace{
+       color: #777777;
+       font-size: 12px;
+       line-height: 0.1rem;
+       font-weight: 400;
+    }
+
+    &__profiles{
+        font-size: 18px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    &__list{
+        list-style-type: none;
+        padding-inline-start: 0px !important;
+        color: #949494;
+        font-weight: bold;
+    }
+
+}
+
+.container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.userprofile-right{
+    padding-right: 0px !important;
+}
+    .imgdiv {
+        width: 100%;
+        height: 300px;
+        &__img {
+          width: 100%;
+          height: 300px;
+          border: 2px solid #9c9d9e;
+          border-top: none;
+          background-image: url("../images/Layer 977.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        &__buttons{
+            margin-top: -50px;
+            text-align: right;
+            button{
+                color: white;
+                border: none;
+                margin-right: 20px;
+                padding: 4px 17px;
+                border-radius: 5px;
+            }
+        }
+        &__button1 {
+          background-color: #ff295a;
+        
+        }
+        &__button2 {
+            background-color: black;
+          }
+      }
+      .userprofileCards{
+          margin-top: 10px;
+      }
+      .userprofileCards-left{
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+      }
+
+      .accomplishmentsCard{
+          background-color: transparent;
+          border: 2px solid #9c9d9e;
+          
+          p{
+              text-align: center;
+              margin-top: 5px;
+              font-size: 18px;
+              margin-top: 10px;
+          }
+          i{
+              padding: 10px;
+              font-size: 30px;
+              border: 2px solid #424c53;
+              border-radius: 50%;
+              margin-bottom: 20px;
+              
+          }
+          i:nth-child(1){
+            color: #3eb49e;
+          }
+          i:nth-child(2){
+              color: #e54555;
+        }
+        i:nth-child(3){
+              color: #dcb326;
+        }
+        i:nth-child(4){
+              color: #e2544d;
+        }
+          &__row{
+              display: flex;
+              justify-content: space-around;
+              
+          }
+      }
+      .friendsCard{
+        background-color: transparent;
+        border: 2px solid #9c9d9e;
+        margin-top: 10px;
+        
+        p:nth-child(1){
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+        }
+        p{
+            font-size: 10px;
+            text-align: center;
+            line-height: 1rem;
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+            font-size: 30px;
+            border-radius: 3px;
+            
+        }
+        &__row{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+
+        button{
+            width: 90%;
+            display: block;
+            margin: 20px auto;
+            background-color: #282d34;
+            border: none;
+            color: #8899b1;
+            padding: 10px;
+            border-radius: 7px;
+        }
+    }
+    .othergamesCard{
+        background-color: transparent;
+        border: 2px solid #9c9d9e;
+        
+        p:nth-child(1){
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
+        }
+        span{
+            color: #777777;
+            font-size: 15px;
+            font-weight: 400;
+            display: block;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            text-align: center;
+            
+        }
+        p{
+            font-size: 13px;
+            text-align: center;
+            line-height: 1.5rem;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        img{
+            width: 120px;
+            height: 128px;
+            font-size: 30px;
+            border-radius: 3px;
+            
+        }
+        &__row{
+            display: flex;
+            justify-content: space-around;
+            padding: 0px 20px;  
+        }
+
+        button{
+            width: 90%;
+            display: block;
+            margin: 20px auto;
+            background-color: #282d34;
+            border: none;
+            color: #8899b1;
+            padding: 10px;
+            border-radius: 7px;
+        }
+    }
+.userprofileCards-right{
+    padding-right: 0px !important;
+    margin-top: 0px !important;
+}
+.followingsCard{
+    background-color: transparent;
+    border: 2px solid #9c9d9e;
+    margin-top: 10px;
+    
+    p:nth-child(1){
+        text-align: center;
+        margin: 20px;
+        font-size: 18px;
+    }
+    p{
+        font-size: 13px;
+        text-align: center;
+        line-height: 1.5rem;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
+    img{
+        width: 120px;
+        height: 128px;
+        font-size: 30px;
+        border-radius: 3px;
+        
+    }
+    &__row{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 20px;  
+    }
+
+    button{
+        width: 90%;
+        display: block;
+        margin: 20px auto;
+        background-color: #282d34;
+        border: none;
+        color: #8899b1;
+        padding: 10px;
+        border-radius: 7px;
+    }
+}
+
+.footerredCard{
+    width: 350px;
+    height: 100%;
+    background-color: #ff295a;
+    margin-left: 100px;
+
+    img{
+        display: block;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    p{
+        text-align: justify;
+        font-size: 14px;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0px !important;
+        margin: 30px;
+        margin-bottom: 10px;
+        li{
+            display: inline;
+            font-size: 20px;
+            border: 2px solid white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+    
+}
+.footerCols{
+    margin-top: 50px;
+    padding-right: 40px;
+    p::after{
+        content: " ";
+        border-bottom: 1px solid white;
+        width: 60px;
+        height: 10px;
+        display: block;
+    }
+    ul{
+        padding-left: 0px !important;
+        list-style-type: none;
+        line-height: 2.5rem;
+        
+    }
+}
+
+.footerRow::before{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: solid #282828;
+    background-color: #282828;
+    
+}
+
+.footerredCard::before{
+    content: ' ';
+    transform: skew(150deg);
+    display: block;
+    width: 350px;
+    margin-left: 17.3px;
+    height: 60px;
+    border: solid #ff295a;
+    background-color: #ff295a;
+    position: absolute;
+    margin-top: -60px;
+  
+}
+
+footer{
+    margin-top: 100px;
+}
+
+header{
+    height: 100px;
+    background-color: black;
+}
+/*
+.gameHeader{
+    width: 100%;
+    height: 102%;
+    border-left: 1px solid #484a4d;
+
+    &__logoDiv{
+        width: 200px;
+        margin: auto;
+        height: 121px;
+        background: #212427;
+        transform: perspective(30px) rotateX(-5deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 2px 5px black;
+        img{
+            margin: 10px;
+            margin-top: 0px;
+        }
+        
+    }
+}
+*/
+
+.gameHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    &::before{
+        content: "";
+        height: 100%;
+        border-left: 2px solid #424243;
+         transform: skew(34deg, 0deg);
+    }
+
+    &::after{
+        content: "";
+        height: 100%;
+        border-left: 2px solid #424243;
+        transform: skew(-34deg, 0deg);
+    }
+&__left{
+    width: 37%;
+}
+&__right{
+    width: 37%;
+}
+&__middle{
+    width: 24%;
+}
+    &__leftTop{
+        height: 30%;
+        display: flex;
+        justify-content: start;
+        color: #777777;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding-top: 7px;
+        i{
+            font-size: 16px;
+            margin-left: 20px;
+        }
+    }
+    &__rightTop{
+        
+        height: 30%;
+        display: flex;
+        justify-content: flex-end;
+        color: #777777;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding-top: 7px;
+        margin-top: 10px;
+        
+        i{
+            font-size: 16px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+    }
+    &__leftBottom{
+        padding-right: 20px;
+    width: 100%;
+        height: 60%;
+        margin-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        align-items: center;
+        margin-left: 32px;
+        a{
+            color: white;
+            font-size: 15px;
+        }
+        a:hover{
+            color: #ff295a;
+        }
+
+    }
+    &__rightBottom{
+       
+        height: 60%;
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        align-items: center;
+        margin-right: 15px;
+        a{
+            color: white;
+            font-size: 15px;
+        }
+      
+       
+        
+        }
+        a:hover{
+            color: #ff295a;
+        }
+       
+        button:nth-child(1){
+            width: 100%;
+            height: 100%;
+            background-color: transparent;
+            text-transform: uppercase;
+            color: white;
+            border: unset;
+        }
+        button:nth-child(2){
+            width:100px; 
+            height:100px; 
+            border:1px solid #000; 
+            background:yellow;
+            transform: skew(-34deg); 
+            -webkit-transform: skew(-34deg);
+            width: 100%;
+            height: 100%;
+            background-color: #ff295a;
+            text-transform: uppercase;
+            color: white;
+            border: unset;
+            margin-right: -2px;
+            position: relative;
+         
+        }
+    .last-button:hover{
+        color: white;
+    }
+    &__middle{
+        width: 200px;
+        margin: auto;
+        height: 121px;
+        background: #212427;
+        transform: perspective(30px) rotateX(-5deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 2px 5px black;
+        img{
+            margin: 10px;
+            margin-top: 0px;
+        }
+    }
+ 
+    }
+
+    .gameHeader__rightBottom .last-button {
+        display: block;
+        color: white;
+        font-size: 15px;
+        transform: skew(35deg, 0deg) !important;
+    }
+
+    .RegInfoCard{
+        input::placeholder {
+            color: white;
+        }
+        input:focus{
+            outline: none;
+        }
+        
+        background-color: #212427;
+        border: 2px solid #56585b;
+        border-radius: 5px;
+        margin-top: 20px;
+        &__header{
+            font-size: 24px;
+            text-align: center;
+        }
+
+        &__note{
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+            span{
+                color: #f02957;
+            }
+        }
+
+        &__buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                margin: 20px;
+                width: 20%;
+                padding-top: 20px;
+                font-size: 18px;
+                background-color: #282d34;
+                border: unset;
+                color: white;
+                p{
+                    margin-top: 10px;
+                }
+            }
+        }
+               
+        &__icon{
+            font-size: 40px;
+           
+        }
+
+        &__login{
+         
+            input{
+                background-color: #282d34;
+                padding: 10px 15px;
+                color: white;
+                border: unset;
+                border-radius: 5px;
+                font-size: 16px;
+                height: 45px;
+                width: 100%;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                height: 100%;
+                height: 45px;
+                color: white;
+                background-color: #ff295a;
+                border: unset;
+                border-radius: 5px;
+                width: 100%;
+            }
+        }
+        &__or{
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            padding-top: 10px;
+        }
+
+        &__socials{
+          
+            button{
+                margin: 10px;
+                width: 100%;
+                color: white;
+                padding: 10px 5px;
+                border: unset;
+                i{
+                    margin-right: 5px;
+                    font-size: 20px;
+                }
+                &.fb{
+                    background-color: #4578be;
+                }
+                &.twitter{
+                    background-color: #39a9bd;
+                }
+                &.ig{
+                    background-color: #cc2f96;
+                }
+                &.red{
+                    background-color: #ff4500;
+                }
+            }
+        }
+        &__registerRow{
+            margin: 20px !important;
+            input,button{
+                background-color: #282d34;
+                padding: 10px 15px;
+                color: white;
+                border: unset;
+                border-radius: 5px;
+                font-size: 16px;
+                height: 45px;
+                margin-bottom: 10px;
+            }
+
+           
+        }
+        &__registerCol1{
+            input{
+                width: 100%;
+            }
+        }
+        &__registerCol2{
+            .surname{
+                width: 100%;
+            }
+            div{
+                
+                background-color: #282d34;
+                color: white;
+                border: unset;
+                border-radius: 5px;
+                font-size: 16px;
+                height: 45px;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                padding-left: 10px;
+                .gender{
+                    padding-right: 40px;
+                }
+                .gender-male{
+                    padding-right: 40px;
+                }
+            }
+    
+            .gender-label{
+display: inline;
+  position: relative;
+  padding-left: 27px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+                input{
+                    position: absolute;
+                    opacity: 0;
+                    cursor: pointer;
+                    height: 0;
+                    width: 0;
+                      }
+                
+            } 
+            .gender-label:hover input ~ .checkmark {
+                background-color:#ff295a;
+              }
+              /* When the checkbox is checked, add a blue background */
+.gender-label input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  
+
+  .gender-label input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .gender-label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ff295a;
+    background-color: #ff295a;
+    border-radius: 50%;
+    left: 1px;
+    top: 1.2px;
+    
+  }
+                  .checkmark {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 20px;
+                    width: 20px;
+                    border-radius: 50%;
+                    border: 3px solid #ff295a;
+                    background-color:transparent;
+                    }
+                    .pass{
+                        width: 100%;
+                    }         
+        }
+        &__registerCol3{
+            input{
+                width: 100%;
+            }
+            button{
+                height: 100%;
+                height: 45px;
+                color: white;
+                background-color: #ff295a;
+                border: unset;
+                border-radius: 5px;
+                width: 100%;
+            }
+        }
+        &__personal{
+            input{
+                @include inputs();
+                width: 100%;
+            }
+        }
+        }
+
+
+        @media only screen and (max-width: 800px){
+            header{
+                display: none;
+                
+            }
+            .name, .password, .entry{
+                margin-top: 10px;
+            
+        }
+    }
+
+    .announcement{
+        &__type{
+            background-color: #282d34;
+            color: white;
+            border: unset;
+            border-radius: 5px;
+            font-size: 16px;
+            height: 45px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        /* Customize the label (the container) */
+.container {
+    display: inline;
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 10px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    
+  }
+  .labels{
+      padding-left: 24px;
+  }
+  .type{
+      padding-right: 20px;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    background-color:transparent;
+    border: 1px solid #ff295a;
+    border-radius: 3px;
+    
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ff295a;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #ff295a;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 6px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  &__category{ 
+      display: flex;
+      justify-content: space-between;
+    div,input{
+        background-color: #282d34;
+        color: white;
+        border: unset;
+        border-radius: 5px;
+        font-size: 16px;
+        height: 45px;
+        margin-bottom: 10px;
+        
+        padding-left: 10px;
+        width: 48%;    
+      }
+      div{
+          padding-top: 10px;
+      }
+  } 
+    }
+  .announcement2{
+      &__col{
+          display: flex;
+          justify-content: space-between;
+      }
+      &__status{
+        background-color: #282d34;
+        color: white;
+        border: unset;
+        border-radius: 5px;
+        font-size: 16px;
+        height: 45px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: 58%;
+      }
+      /* Customize the label (the container) */
+.container {
+    display: inline;
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 10px;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .labels{
+      padding-left: 35px;
+  }
+  .status{
+      padding-right: 20px;
+  }
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #ff295a;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color:transparent;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:#ff295a;
+  }
+  .city{
+    background-color: #282d34;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 38%;
+  }
+  &__platform {
+display: flex;
+justify-content: space-between;
+   div,input{
+    background-color: #282d34;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 45px;
+    margin-bottom: 10px;
+    
+    padding-left: 10px;
+    width: 48%;
+  }
+  div{
+    padding-top: 10px;
+  }
+  }
+}
+
+.announcement3{
+    textarea{
+        width: 100%;
+        background-color: #282d34;
+        color: white;
+        border: unset;
+        border-radius: 5px;
+        font-size: 16px;
+        height: 90px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        &::placeholder{
+            color: white;
+        }
+    }
+    .file-inputs{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      /* Hide the browser's default checkbox */
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      /* Create a custom checkbox */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 90px;
+        width: 90%;
+        background-color: #282d34;
+        margin-left: 12px;
+        border-radius: 5px;
+      }
+      
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      
+      /* When the checkbox is checked, add a blue background */
+      .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+      
+      /* Create the checkmark/indicator (hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      /* Show the checkmark when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the checkmark/indicator */
+      .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      .labels{
+        position: absolute;
+        left: 50px;
+        top: 60px;
+        z-index: 1;
+        font-size: 16px;
+      }
+}
+textarea:focus{
+    outline: none;
+}

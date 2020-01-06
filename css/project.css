@@ -1,0 +1,1539 @@
+body {
+  background-color: #1f2124;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+.owlCard__imgBox {
+  height: 350px;
+  -webkit-box-shadow: inset 0 -40px 70px 30px rgba(0, 0, 0, 0.9);
+          box-shadow: inset 0 -40px 70px 30px rgba(0, 0, 0, 0.9);
+}
+
+.owlCard__imgBox img {
+  height: 100%;
+  position: relative;
+  z-index: -2;
+}
+
+.owlCard__content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0.5rem;
+}
+
+.owlCard__title {
+  font-size: 18px;
+}
+
+.owlCard__date {
+  font-size: 12px;
+  color: #878889;
+}
+
+.owlCard__price {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.myOwl {
+  background-color: #282828;
+  padding: 1rem 1rem;
+}
+
+.myOwl__dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.myOwl__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.myOwl__dot {
+  background-color: transparent;
+  border: 1px solid #a92946;
+  border-radius: 3px;
+  height: 20px;
+  width: 10px;
+  padding: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  margin-right: .2rem;
+}
+
+.myOwl__dot:focus {
+  outline: none;
+}
+
+.myOwl__dot--active {
+  background-color: #a92946;
+  width: 17px;
+}
+
+.owl-prev {
+  background-color: transparent;
+  border: 1px solid #a92946;
+  color: #a92946;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: .5rem;
+  padding: .1rem 1rem;
+  line-height: normal;
+}
+
+.owl-next {
+  background-color: transparent;
+  border: 1px solid #a92946;
+  color: #a92946;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: .5rem;
+  padding: .1rem 1rem;
+  line-height: normal;
+}
+
+div.owl-nav {
+  display: none;
+}
+
+div.owl-dots {
+  display: none;
+}
+
+.buttonPS {
+  border: 1px solid #00aeef;
+  color: #00aeef;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: .3rem 0.7rem;
+  width: 6rem;
+  border-radius: 7px;
+}
+
+.gamesPage {
+  margin-top: 40px;
+}
+
+.gamesPage .col-md-4 {
+  margin-top: 30px;
+}
+
+.gamesPage__card {
+  background-color: transparent;
+}
+
+.gamesPage__rest {
+  background-color: #212427;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.gamesPage__imgBox {
+  height: 11.2rem;
+  -webkit-box-shadow: inset 0 -40px 70px 30px rgba(0, 0, 0, 0.9);
+          box-shadow: inset 0 -40px 70px 30px rgba(0, 0, 0, 0.9);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.gamesPage__imgBox img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  position: relative;
+  z-index: -2;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.gamesPage__cardTitle {
+  font-size: 24px;
+  margin-top: -2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0px 0.5rem;
+}
+
+.gamesPage__cardContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  padding: 3px 0.5rem;
+}
+
+.gamesPage__cardContent p {
+  margin-top: -1rem;
+}
+
+.gamesPage__date {
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}
+
+.gamesMedia {
+  background-color: #26282c;
+  padding: 0.7rem 1rem 0.1rem 1rem;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.gamesMedia__number {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.gamesMedia__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.gamesMedia__name {
+  font-size: 14px;
+}
+
+.gamesMedia__point {
+  font-size: 12px;
+  color: #5b5c5d;
+}
+
+.gamesMediaBox {
+  margin-top: 30px;
+}
+
+.userprofile-navigation {
+  background-color: #212427;
+  border: 1px solid white;
+  border-top: none;
+  color: white;
+  padding: 8px 0px;
+}
+
+.userprofile-navigation__link {
+  color: white;
+  font-size: 17px;
+}
+
+.userprofile-navigation__link:hover {
+  color: #ff295a;
+}
+
+.userprofile-left__profilepic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 7px solid #484a4d;
+}
+
+.userprofile-left__name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700px;
+  line-height: 0.1rem;
+}
+
+.userprofile-left__namelink {
+  text-align: right;
+}
+
+.userprofile-left__link {
+  color: #5b5c5d;
+  line-height: 0.5rem;
+}
+
+.userprofile-left__link:hover {
+  color: #5b5c5d;
+}
+
+.userprofile-left__level {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.userprofile-left__location, .userprofile-left__regdate, .userprofile-left__workplace {
+  color: #777777;
+  font-size: 12px;
+  line-height: 0.1rem;
+  font-weight: 400;
+}
+
+.userprofile-left__profiles {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.userprofile-left__list {
+  list-style-type: none;
+  -webkit-padding-start: 0px !important;
+          padding-inline-start: 0px !important;
+  color: #949494;
+  font-weight: bold;
+}
+
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.userprofile-right {
+  padding-right: 0px !important;
+}
+
+.imgdiv {
+  width: 100%;
+  height: 300px;
+}
+
+.imgdiv__img {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #9c9d9e;
+  border-top: none;
+  background-image: url("../images/Layer 977.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.imgdiv__buttons {
+  margin-top: -50px;
+  text-align: right;
+}
+
+.imgdiv__buttons button {
+  color: white;
+  border: none;
+  margin-right: 20px;
+  padding: 4px 17px;
+  border-radius: 5px;
+}
+
+.imgdiv__button1 {
+  background-color: #ff295a;
+}
+
+.imgdiv__button2 {
+  background-color: black;
+}
+
+.userprofileCards {
+  margin-top: 10px;
+}
+
+.userprofileCards-left {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.accomplishmentsCard {
+  background-color: transparent;
+  border: 2px solid #9c9d9e;
+}
+
+.accomplishmentsCard p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.accomplishmentsCard i {
+  padding: 10px;
+  font-size: 30px;
+  border: 2px solid #424c53;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.accomplishmentsCard i:nth-child(1) {
+  color: #3eb49e;
+}
+
+.accomplishmentsCard i:nth-child(2) {
+  color: #e54555;
+}
+
+.accomplishmentsCard i:nth-child(3) {
+  color: #dcb326;
+}
+
+.accomplishmentsCard i:nth-child(4) {
+  color: #e2544d;
+}
+
+.accomplishmentsCard__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.friendsCard {
+  background-color: transparent;
+  border: 2px solid #9c9d9e;
+  margin-top: 10px;
+}
+
+.friendsCard p:nth-child(1) {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.friendsCard p {
+  font-size: 10px;
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.friendsCard img {
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  border-radius: 3px;
+}
+
+.friendsCard__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.friendsCard button {
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+  background-color: #282d34;
+  border: none;
+  color: #8899b1;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.othergamesCard {
+  background-color: transparent;
+  border: 2px solid #9c9d9e;
+}
+
+.othergamesCard p:nth-child(1) {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.othergamesCard span {
+  color: #777777;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.othergamesCard p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.othergamesCard img {
+  width: 120px;
+  height: 128px;
+  font-size: 30px;
+  border-radius: 3px;
+}
+
+.othergamesCard__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.othergamesCard button {
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+  background-color: #282d34;
+  border: none;
+  color: #8899b1;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.userprofileCards-right {
+  padding-right: 0px !important;
+  margin-top: 0px !important;
+}
+
+.followingsCard {
+  background-color: transparent;
+  border: 2px solid #9c9d9e;
+  margin-top: 10px;
+}
+
+.followingsCard p:nth-child(1) {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.followingsCard p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.followingsCard img {
+  width: 120px;
+  height: 128px;
+  font-size: 30px;
+  border-radius: 3px;
+}
+
+.followingsCard__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.followingsCard button {
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+  background-color: #282d34;
+  border: none;
+  color: #8899b1;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.footerredCard {
+  width: 350px;
+  height: 100%;
+  background-color: #ff295a;
+  margin-left: 100px;
+}
+
+.footerredCard img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerredCard p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.footerredCard ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 0px !important;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+.footerredCard ul li {
+  display: inline;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footerCols {
+  margin-top: 50px;
+  padding-right: 40px;
+}
+
+.footerCols p::after {
+  content: " ";
+  border-bottom: 1px solid white;
+  width: 60px;
+  height: 10px;
+  display: block;
+}
+
+.footerCols ul {
+  padding-left: 0px !important;
+  list-style-type: none;
+  line-height: 2.5rem;
+}
+
+.footerRow::before {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 60px;
+  border: solid #282828;
+  background-color: #282828;
+}
+
+.footerredCard::before {
+  content: ' ';
+  -webkit-transform: skew(150deg);
+          transform: skew(150deg);
+  display: block;
+  width: 350px;
+  margin-left: 17.3px;
+  height: 60px;
+  border: solid #ff295a;
+  background-color: #ff295a;
+  position: absolute;
+  margin-top: -60px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+}
+
+/*
+.gameHeader{
+    width: 100%;
+    height: 102%;
+    border-left: 1px solid #484a4d;
+
+    &__logoDiv{
+        width: 200px;
+        margin: auto;
+        height: 121px;
+        background: #212427;
+        transform: perspective(30px) rotateX(-5deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 2px 5px black;
+        img{
+            margin: 10px;
+            margin-top: 0px;
+        }
+        
+    }
+}
+*/
+.gameHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.gameHeader::before {
+  content: "";
+  height: 100%;
+  border-left: 2px solid #424243;
+  -webkit-transform: skew(34deg, 0deg);
+          transform: skew(34deg, 0deg);
+}
+
+.gameHeader::after {
+  content: "";
+  height: 100%;
+  border-left: 2px solid #424243;
+  -webkit-transform: skew(-34deg, 0deg);
+          transform: skew(-34deg, 0deg);
+}
+
+.gameHeader__left {
+  width: 37%;
+}
+
+.gameHeader__right {
+  width: 37%;
+}
+
+.gameHeader__middle {
+  width: 24%;
+}
+
+.gameHeader__leftTop {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  color: #777777;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding-top: 7px;
+}
+
+.gameHeader__leftTop i {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.gameHeader__rightTop {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #777777;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 7px;
+  margin-top: 10px;
+}
+
+.gameHeader__rightTop i {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.gameHeader__rightTop img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.gameHeader__leftBottom {
+  padding-right: 20px;
+  width: 100%;
+  height: 60%;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 32px;
+}
+
+.gameHeader__leftBottom a {
+  color: white;
+  font-size: 15px;
+}
+
+.gameHeader__leftBottom a:hover {
+  color: #ff295a;
+}
+
+.gameHeader__rightBottom {
+  height: 60%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+}
+
+.gameHeader__rightBottom a {
+  color: white;
+  font-size: 15px;
+}
+
+.gameHeader a:hover {
+  color: #ff295a;
+}
+
+.gameHeader button:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: white;
+  border: unset;
+}
+
+.gameHeader button:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background: yellow;
+  transform: skew(-34deg);
+  -webkit-transform: skew(-34deg);
+  width: 100%;
+  height: 100%;
+  background-color: #ff295a;
+  text-transform: uppercase;
+  color: white;
+  border: unset;
+  margin-right: -2px;
+  position: relative;
+}
+
+.gameHeader .last-button:hover {
+  color: white;
+}
+
+.gameHeader__middle {
+  width: 200px;
+  margin: auto;
+  height: 121px;
+  background: #212427;
+  -webkit-transform: perspective(30px) rotateX(-5deg);
+          transform: perspective(30px) rotateX(-5deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 2px 5px black;
+          box-shadow: 0px 2px 5px black;
+}
+
+.gameHeader__middle img {
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.gameHeader__rightBottom .last-button {
+  display: block;
+  color: white;
+  font-size: 15px;
+  -webkit-transform: skew(35deg, 0deg) !important;
+          transform: skew(35deg, 0deg) !important;
+}
+
+.RegInfoCard {
+  background-color: #212427;
+  border: 2px solid #56585b;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.RegInfoCard input::-webkit-input-placeholder {
+  color: white;
+}
+
+.RegInfoCard input:-ms-input-placeholder {
+  color: white;
+}
+
+.RegInfoCard input::-ms-input-placeholder {
+  color: white;
+}
+
+.RegInfoCard input::placeholder {
+  color: white;
+}
+
+.RegInfoCard input:focus {
+  outline: none;
+}
+
+.RegInfoCard__header {
+  font-size: 24px;
+  text-align: center;
+}
+
+.RegInfoCard__note {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.RegInfoCard__note span {
+  color: #f02957;
+}
+
+.RegInfoCard__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.RegInfoCard__buttons button {
+  margin: 20px;
+  width: 20%;
+  padding-top: 20px;
+  font-size: 18px;
+  background-color: #282d34;
+  border: unset;
+  color: white;
+}
+
+.RegInfoCard__buttons button p {
+  margin-top: 10px;
+}
+
+.RegInfoCard__icon {
+  font-size: 40px;
+}
+
+.RegInfoCard__login input {
+  background-color: #282d34;
+  padding: 10px 15px;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+}
+
+.RegInfoCard__login input:focus {
+  outline: none;
+}
+
+.RegInfoCard__login button {
+  height: 100%;
+  height: 45px;
+  color: white;
+  background-color: #ff295a;
+  border: unset;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.RegInfoCard__or {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.RegInfoCard__socials button {
+  margin: 10px;
+  width: 100%;
+  color: white;
+  padding: 10px 5px;
+  border: unset;
+}
+
+.RegInfoCard__socials button i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.RegInfoCard__socials button.fb {
+  background-color: #4578be;
+}
+
+.RegInfoCard__socials button.twitter {
+  background-color: #39a9bd;
+}
+
+.RegInfoCard__socials button.ig {
+  background-color: #cc2f96;
+}
+
+.RegInfoCard__socials button.red {
+  background-color: #ff4500;
+}
+
+.RegInfoCard__registerRow {
+  margin: 20px !important;
+}
+
+.RegInfoCard__registerRow input, .RegInfoCard__registerRow button {
+  background-color: #282d34;
+  padding: 10px 15px;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.RegInfoCard__registerCol1 input {
+  width: 100%;
+}
+
+.RegInfoCard__registerCol2 {
+  /* When the checkbox is checked, add a blue background */
+}
+
+.RegInfoCard__registerCol2 .surname {
+  width: 100%;
+}
+
+.RegInfoCard__registerCol2 div {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.RegInfoCard__registerCol2 div .gender {
+  padding-right: 40px;
+}
+
+.RegInfoCard__registerCol2 div .gender-male {
+  padding-right: 40px;
+}
+
+.RegInfoCard__registerCol2 .gender-label {
+  display: inline;
+  position: relative;
+  padding-left: 27px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.RegInfoCard__registerCol2 .gender-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.RegInfoCard__registerCol2 .gender-label:hover input ~ .checkmark {
+  background-color: #ff295a;
+}
+
+.RegInfoCard__registerCol2 .gender-label input:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+.RegInfoCard__registerCol2 .gender-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.RegInfoCard__registerCol2 .gender-label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ff295a;
+  background-color: #ff295a;
+  border-radius: 50%;
+  left: 1px;
+  top: 1.2px;
+}
+
+.RegInfoCard__registerCol2 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 3px solid #ff295a;
+  background-color: transparent;
+}
+
+.RegInfoCard__registerCol2 .pass {
+  width: 100%;
+}
+
+.RegInfoCard__registerCol3 input {
+  width: 100%;
+}
+
+.RegInfoCard__registerCol3 button {
+  height: 100%;
+  height: 45px;
+  color: white;
+  background-color: #ff295a;
+  border: unset;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.RegInfoCard__personal input {
+  background-color: #282d34;
+  padding: 10px 15px;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    display: none;
+  }
+  .name, .password, .entry {
+    margin-top: 10px;
+  }
+}
+
+.announcement {
+  /* Customize the label (the container) */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.announcement__type {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.announcement .container {
+  display: inline;
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+}
+
+.announcement .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.announcement .labels {
+  padding-left: 24px;
+}
+
+.announcement .type {
+  padding-right: 20px;
+}
+
+.announcement .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  background-color: transparent;
+  border: 1px solid #ff295a;
+  border-radius: 3px;
+}
+
+.announcement .container:hover input ~ .checkmark {
+  background-color: #ff295a;
+}
+
+.announcement .container input:checked ~ .checkmark {
+  background-color: #ff295a;
+}
+
+.announcement .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.announcement .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.announcement .container .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.announcement__category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.announcement__category div, .announcement__category input {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 48%;
+}
+
+.announcement__category div {
+  padding-top: 10px;
+}
+
+.announcement2 {
+  /* Customize the label (the container) */
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.announcement2__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.announcement2__status {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 58%;
+}
+
+.announcement2 .container {
+  display: inline;
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 10px;
+}
+
+.announcement2 .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.announcement2 .labels {
+  padding-left: 35px;
+}
+
+.announcement2 .status {
+  padding-right: 20px;
+}
+
+.announcement2 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid #ff295a;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.announcement2 .container:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+.announcement2 .container input:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+.announcement2 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.announcement2 .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.announcement2 .container .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff295a;
+}
+
+.announcement2 .city {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 38%;
+}
+
+.announcement2__platform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.announcement2__platform div, .announcement2__platform input {
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 45px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  width: 48%;
+}
+
+.announcement2__platform div {
+  padding-top: 10px;
+}
+
+.announcement3 {
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.announcement3 textarea {
+  width: 100%;
+  background-color: #282d34;
+  color: white;
+  border: unset;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 90px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.announcement3 textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.announcement3 textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.announcement3 textarea::-ms-input-placeholder {
+  color: white;
+}
+
+.announcement3 textarea::placeholder {
+  color: white;
+}
+
+.announcement3 .file-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.announcement3 .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.announcement3 .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.announcement3 .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 90%;
+  background-color: #282d34;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+.announcement3 .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.announcement3 .container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.announcement3 .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.announcement3 .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.announcement3 .container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.announcement3 .labels {
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  z-index: 1;
+  font-size: 16px;
+}
+
+textarea:focus {
+  outline: none;
+}
+/*# sourceMappingURL=project.css.map */
